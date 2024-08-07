@@ -6,6 +6,5 @@ rm('./dist/', function (pErr) {
   if (pErr) throw pErr
   webpack(webpackConfig, function (err, stat) {
     if (err) throw err
-    console.log('finished')
   })
 })
